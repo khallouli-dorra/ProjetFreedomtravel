@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "freedomtravel"
+    }
+  },
+  "defaultProject": "freedomtravel",
+  "cli": {
+    "analytics": "ca2eecf6-d307-4ec0-8838-deafa6839cd7"
+  }
 }

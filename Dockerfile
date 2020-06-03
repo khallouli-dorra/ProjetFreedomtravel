@@ -6,6 +6,6 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-#stage 2: Application Freedomtravel
+#stage 2: Application web Freedomtravel
 FROM nginx:alpine
 COPY --from=build-step /app/dist/freedomtravel /usr/share/nginx/html
